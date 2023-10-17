@@ -14,6 +14,7 @@ import AddDoctor from "../Pages/Dashboard/AddDoctor/AddDoctor";
 import ManageDoctors from "../Pages/Dashboard/ManageDoctors/ManageDoctors";
 import Payment from "../Pages/Dashboard/Payment/Payment";
 import DisplayError from "../Pages/Shered/DisplayError/DisplayError";
+import About from "../Pages/About/About";
 
 export const router = createBrowserRouter([
     {
@@ -33,6 +34,10 @@ export const router = createBrowserRouter([
             {
                 path:"/login",
                 element:<Login/>
+            },
+            {
+                path:"/about",
+                element:<About/>
             },
             {
                 path:"/signUp",
